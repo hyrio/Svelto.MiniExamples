@@ -4,6 +4,7 @@ using MiniExamples.DeterministicPhysicDemo.Physics.CollisionStructures;
 
 namespace MiniExamples.DeterministicPhysicDemo.Physics.EntityComponents
 {
+    // 矩形碰撞器组件
     public struct BoxColliderEntityComponent : IEntityComponent
     {
         internal FixedPointVector2 Size;
